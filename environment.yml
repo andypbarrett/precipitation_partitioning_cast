@@ -1,0 +1,43 @@
+name: precip_partitioning
+channels:
+ - conda-forge
+ - default
+dependencies:
+ - python ~=3.12
+
+ ###################################################
+ # Imported dependencies and extensions            #
+ ###################################################
+
+ # Workflow
+ - pqdm
+ 
+ # Jupyterlab for notebooks
+ - jupyterlab
+
+ # Data Access
+ - earthaccess
+ - cdsapi
+ 
+ # Plotting
+ - matplotlib
+ - cartopy
+ - seaborn
+
+ # xarray
+ - xarray
+ - netCDF4
+ - h5py
+ - h5netcdf
+ - dask
+ - bottleneck
+ - rioxarray
+
+ # pandas and geopandas
+ - pandas
+ - geopandas
+ - openpyxl
+
+ # image manipulation
+ - scikit-image
+ 
